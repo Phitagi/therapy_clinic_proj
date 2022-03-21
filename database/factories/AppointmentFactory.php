@@ -28,7 +28,7 @@ class AppointmentFactory extends Factory
             'therapist_id' =>  $this->faker->numberBetween(1,15),
             'therapy_room_id' => $this->faker->numberBetween(1,13),
             'start_at' => $this->faker->dateTimeBetween('2022-03-17 07:31:40','2022-03-18 16:31:40'),
-            'ended_at' => $this->faker->dateTimeBetween('2022-03-19 07:31:40','2022-03-21 16:31:40'),
+            //'ended_at' => $this->faker->dateTimeBetween('2022-03-19 07:31:40','2022-03-21 16:31:40'),
             'status' =>  'scheduled',
         ];
     }
